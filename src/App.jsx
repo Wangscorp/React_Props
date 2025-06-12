@@ -1,3 +1,5 @@
+import Greetings from './components/Greetings.jsx'
+import Home from './Home.jsx'
 import Students from './Students.jsx'
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
     <Students name="Felista" age={28} isStudent={false}/>
     {/* checking default */}
     <Students />
+    <Greetings name="Mary"/>
+    <Home/>
     </>
    
   )
